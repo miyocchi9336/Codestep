@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+a {
+  color: #24292E;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+picture img{
+  width: 100vw;
+  height: 600px;
+}
+
+main {
+  padding: 0 4%;
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  text-align: center;
+}
+h2 {
+  display: inline-block;
+  margin-top: 90px;
+  border-bottom: 1px solid #383E45;
+  font-size: 2rem;
+}
+
+.about-container {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.about-container img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 30px;
+}
+
+.about-text {
+  text-align: left;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.about-text p {
+  font-size: 14.4px;
+  width: 397.16px;
+}
+
+.bicycle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.bicycle-content {
+  margin: 0 10px;
+  width: 32%;
+}
+
+.bicycle-content img {
+  width: 100%;
+}
+
+footer {
+  height: 40px;
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
+  padding: 12.5px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-container img {
+    margin: 0 auto;
+  }
+
+  .bicycle-container {
+    flex-direction: column;
+  }
+
+  .bicycle-content {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+}
